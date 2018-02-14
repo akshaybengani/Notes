@@ -1,0 +1,81 @@
+Reference
+=========
+
+Hack5 Youtube video https://www.youtube.com/watch?v=TCPyoWHy4eA
+Metasploit Minuate
+
+SO What is Metasploit first
+=============================
+
+it is a exploitation framework it is a group of tools and exploits make together to form exploit development, system administration and porning stuff easier
+founded by HC verv The vision of the metasploit is that earlier people have to find a particular exploit from different resourses and then they have to use with another tools to perform the task therefore HC Verv thought that we need a single platform where we can perform all the tasks easily from anywhere
+
+Metasploit is in perl first time all generic places and shell code
+
+exploit :- when u take a vulnerability and exploiting the vulnerability or taking the advantage of the vulnerability 
+
+Vulnerability:- It is the weakness of the machine which can allow outsiders to create a problamatic situation for the machine basically like a loop whole which can be manipulated to enter in the device.
+
+for ex:- In a website where u can change user id from 5000 to 1 and can become admin of the website, what we say it as manipulating with the php code in the url
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+Use case for system Administation
+==================================
+we can protect those users who dont have deep knowledge in terms of cyber security or we can control the device remotely by using meterpreter.
+We can kill process remotely in order to fix system freeze.
+
+Metsploit comes in 4 editions 
+=============================
+
+Framework :- Here u get only msfconsole and the command line interface
+
+Community :- Here u get the framework features as well as Community features where u have armitage and metasploit web framework
+
+Express :- Here u get 2 + Automated Features and semi automated works 
+means finding vulnerability and exploiting them automatically this version is paid
+
+Pro :- Here u get 3 + Advanced exploits and more automated and advanced features used for organistaions for research and development
+
+======================================================================
+
+Reference
+==========
+Hackersploit 
+https://www.youtube.com/watch?v=8lR27r8Y_ik
+Metasploit course
+======================================================================
+Metasploit is a leading penetrtion testing framework by a hacker It is really really important to master it for become a hacker
+It was developed by Rapid 7 it has different vulnerability scanners such as expose
+Variants of metasploit 
+
+Armitage it is a GUI version of metasploit framework
+MSFCLI it is the linux command line interface which we also called as Metaploit Framework
+MSFWEB it is a browser based version here we can set targets and exploit them using the web browser only.
+====================================================
+To start metasploit we need some requirements 
+1. Postgresql for metasploit database
+2. msfdb where we can create metasploit database
+3. firewall permissions to open and configure firewall settings
+
+Note :- to use metasploit faster we need to start postgresql to perform operations faster because it saves data in the database 
+
+use command "service pk"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
