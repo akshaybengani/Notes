@@ -11,8 +11,11 @@ A computer program is said to learn from experience E with respect to some task 
 ## Two types of learning algorithm
 ### 1 Supervised Learning 
 It means the idea to teach the computer how to do something and
+we gave the algorithm or we gave the data set which state what is the right price or what is the actual price of the house This basically act as a calculating averages using data set and plotting assumption points on graphs to find the results.
 ### 2 Unsupervised Learning
 It means the computer will learn by itself
+
+
 
 ## Supervised Learning
 
