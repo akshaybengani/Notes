@@ -27,8 +27,10 @@ It means when we have limited no of outcomes like there are 1000 employees in th
 so we take a example of breast cancer so there are two types of brest cancer tumor 1. Malignant Tumor and 2. benign tumor
 malignant Tumor is harmfull and benign tumor is harmless
 So in the 1st example we will plot Malignant and Tumor size where the size of tumor increases the chances of having malignant tumor more as per the graph in the screenshot weak1pod1.png
+<img src="weak1pod1.png">
 So now in the next example we have marked circle for the benign tumor and x as malignant tumor now we can say that increasing size of tumor increases the chances of getting malignant tumor as compared to benign tumor refer weak1pod2.png
+<img src="weak1pod2.png">
 Now we will use Age and tumor size as the data set so there are two variables of measuring the chances of tumors where the age and tumor size increases the chances of having malignant tumor are more as compared to less age and small tumor size.
 so now we have a patient with age less then the average age of having malignant tumor so he keeps behind the line The pink dot represents the patient so it seems to be a benign tumor by our algorithm refer weak1pod3.png
-
+<img src="weak1pod3.png">
 
