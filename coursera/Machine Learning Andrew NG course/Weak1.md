@@ -17,6 +17,7 @@ It means the computer will learn by itself
 
 
 
+
 ## Supervised Learning
 
 
