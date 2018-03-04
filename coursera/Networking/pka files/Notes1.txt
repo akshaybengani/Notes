@@ -1,0 +1,41 @@
+CISCO Netwroking basics
+===========================================
+Course 1 How to get Online 
+==============================
+Week 1
+==========
+
+In this course we will be going to learn hwo we are connected how me and anyone else is connected.
+To connect to anyone else in such a huge networks of networks there are several types of devices used to communicate in this network.
+So basically there are 3 types of devices
+1- End Devices :- These devices are the devices which me and you as a end user uses such as your phone or laptop
+2- Intermediatory Devices :- These devices are used to connect you and the 3rd level of devices for example your home router connects you and all your devices to the nearest ISP which is connecting to everyone.
+3- Top End devices such as ISP's These devices are those which connects every one on the world.
+---------------------------------------------
+So now we will study about how many types of networks are there in the networking industry
+1- Small Home Networks :- This is a network which is very small to 4 to 6 devices which may be connected to your home router.
+2- Small office home networks (SOHO) :- These networks are also small and used for office purposes also consist of using some extra machinery to handle.
+3- Medium to large networks :- these are really big networks like connecting all the devices of the university consisting thousands of devices of different students.
+4- Wide Area network it is basically connecting all the netwoks.
+----------------------------------------------
+What is data :- Data is a raw form combined together to form a information.
+Types of data
+1- Volunterred Data :- This data which we intentionally provide like basic Account information and personal details.
+Such data is provided by you intentionally and is only collected once in the life spam of the service.
+2- Inferred Data :- Such data which you directly didnt provided data to someone but indirectly which using another service or something like withdrawing amount form ATM stores data of which ATM you used and how much you have cash in your hand which can be used by other companies to calculate and assume what the user will do by withdraing that amount.
+3- Observed Data this data is used and provided by you in terms of allowes someone to keep collecting more data then you want.
+Such data such as keeping your location services on sends your location data to the google or the carrer company which can then be used to provide better services nearby by selling that data to someone else.
+---------------------------------------------
+How data is stored :- Data is stored in the form of bits means 0 and 1 and the combinations of those o and 1 are the real data.
+For example the caracter data is stored in the form of ASCII.
+----------------------------------------------
+How data moves in the network so there are three ways how data is transfered in the network.
+1- Electrical Signals.
+2- Optical Signals or light waves.
+3- Wireless Signals.
+----------------------------------------------
+Throughput:- This is the actual current speed you are getting on your network.
+BandWidth:- It is the total capacity of the network connection what maximum amount of speed your home system your router and the other intermediatory devices to the ISP.
+----------------------------------------------
+
+

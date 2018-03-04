@@ -1,0 +1,117 @@
+Cryptography is an art science of secret communication
+It is from the human generations
+secret communications different languages
+There are some characters in cryptography 
+
+Good Gyes
+----------
+Alice Sender
+Bob Reciever
+
+Bad Gyes
+---------
+Eve Evesdropeer
+Malory malicious He can alter the messages also 
+
+The model is like
+
+PlainText
+     |
+     V		Encrypt
+CybpherText
+     |
+     V		Decrypt
+PlainText
+ 
+Threat Model Read,Change,Forge
+
+=============================================
+		Lesson 1
+=============================================
+Confidentiality -> Cant read our messages
+Integrity -> Cant chage the messages Example we get a SHA256 File with the download file which confirms that the message is not altered
+Authenticity -> Cant forge the messages When bob recieves the messages it is not readeble by anyone.
+So there are different algorithms are there to encrypt and decrpt the text
+
+So to avoid messages to be readed by the eve we use an algorithm to do so this help us to maintain the integrity of the messages in transmission
+
+Componets needed for the message Transmission
+1 Sender
+2 Messenger
+3 Lanuage
+4 Message
+5 Reciever
+============================================
+		Lesson 2
+============================================
+Code and 
+Code :- A code involves replacing concepts is the meaning behind the message not the form of message.
+Word/phrase/concept replacement is called code
+
+In Hindi :- The message we wants to convey is translated in such a way which is not meaningfull to anyone else who know the meaning basically like double meaning talks done in our home.
+
+The problem with the code is it is very difficult to convey and generic 
+
+Cipher :- In cipher we change the characters and symbols of the message which leads to transform the message.
+
+Scytale :- It is a leather belt in which message is arranged in such a form that when it is folded on the correct wood N sides it is clear to understand.
+	  ___
+	 / _ \ 
+	| (_) |
+	 \___/ 
+Like here we have 8 sides of the shape this rod is called scytale and the leather strip is folded on this and message can be decoded.
+So anyone who have the same shape sized scytale only he or she can read the message.
+But there is an issue with the scytale the attacker can decode the message just by using different shape scytale to find the correct answer. Here we say brute force attack comes here. 
+
+Caeser :- In this we use different combinations of the wheel all are in a circular table when we shift them in a sequence it shows the cipher text everytime.
+
+         _____
+	/ ___ \ 	<--- Wheel 1
+       / / _ \ \	  <-- Wheel 2
+      | | (_) | | 	    <-- Wheel 3
+       \ \___/ /
+        \_____/
+	 
+Here we rotate all the wheels to find the correct combination.
+Here we use an algorithm of decoding the cipher text written on the wheel we just need to find the 3 combination of the wheel to find the correct cipher text hence it is not so secured it is just a 1 layer more protection then a normal cipher text.
+there are 26 possibles.
+
+Cyptanalysis is the study of analysing information systems in order to study the hidden aspects of the systems.
+
+=============================================
+		Lesson 3
+=============================================
+Machine Ciphers
+Automated Cryptanalysis
+Computational security
+Mathematical Security
+Enigma and project Venona
+
+Enigma :- This machine was used by the germans in the world war 2 as per the movie Imitations game 
+This is the commercial cipher machine in the modern years. 
+However the mapping changes for each character
+
+This machine makes the combination of 193,000,000,000,000,000,000
+============================================
+		Lesson 4
+============================================
+Modern Guiding Principles in cryptography
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

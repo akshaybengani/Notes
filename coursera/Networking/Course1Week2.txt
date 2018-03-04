@@ -1,0 +1,28 @@
+=============Course 1================
+==============Week2==================
+
+Types of Networks
+=================
+
+Cellular Network
+Bluetooth Network
+Wifi Network 
+NFC Near Field communications
+GPS Signals (Signals from the satellite)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
