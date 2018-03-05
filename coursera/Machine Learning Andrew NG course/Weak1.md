@@ -15,7 +15,7 @@ we gave the algorithm or we gave the data set which state what is the right pric
 
 ### 2 Unsupervised Learning
 It means the computer will learn by itself
-
+In Unsupervised learning the data dont have any labels we only have a data set and we have to find the structure of data so we make grouping of common related data like making clusturs
 
 ## Supervised Learning
 ### Regression
@@ -35,7 +35,7 @@ So now in the next example we have marked circle for the benign tumor and x as m
 Now we will use Age and tumor size as the data set so there are two variables of measuring the chances of tumors where the age and tumor size increases the chances of having malignant tumor are more as compared to less age and small tumor size.
 so now we have a patient with age less then the average age of having malignant tumor so he keeps behind the line The pink dot represents the patient so it seems to be a benign tumor by our algorithm.
 <img src="weak1pod3.png">
-In Unsupervised learning the data dont have any labels we only have a data set and we have to find the structure of data so we make grouping of common related data like making clusturs
+
 
 ## Unsupervised Learning
 In supervised learning each example is having a particular dataset on which we apply average type mechanism to determine wheather the practice exist in which variable type but
