@@ -35,4 +35,51 @@ So now in the next example we have marked circle for the benign tumor and x as m
 Now we will use Age and tumor size as the data set so there are two variables of measuring the chances of tumors where the age and tumor size increases the chances of having malignant tumor are more as compared to less age and small tumor size.
 so now we have a patient with age less then the average age of having malignant tumor so he keeps behind the line The pink dot represents the patient so it seems to be a benign tumor by our algorithm.
 <img src="weak1pod3.png">
+In Unsupervised learning the data dont have any labels we only have a data set and we have to find the structure of data so we make grouping of common related data like making clusturs
+
+## Unsupervised Learning
+In supervised learning each example is having a particular dataset on which we apply average type mechanism to determine wheather the practice exist in which variable type but
+In the below example we have clustured the data by grouping them
+<img src="weak1pod4.png">
+### Example
+Google news in this google uses a clusturing algorithm to cluster same news from different websites and clustur them to form a single post and share multiple news channel websites in the post.
+So everytime you visit to google news it shows the top and similar links of websites for the news around the web.
+
+### Example 2
+Clustering: Take a collection of 1,000,000 different genes, and find a way to automatically group these genes into groups that are somehow similar or related by different variables, such as lifespan, location, roles, and so on.
+
+Genes DNA micro raw data the idea is to measure how much of the individuals have a certain genes of data to find that particular pattern of there genes data we group them together in form of clusturs specifying the types of genes and then we can say If a individual lies in between that pattern he may be part of the particular variety of data.
+So this is unsupervised learning because we are not saying that this individual is from the specific group of data.
+<img src="weak1pod5.png">
+
+### Applications of unsupervised learning
+1: Organized Computing Clusters :- we make a collection of different machines and clustur them together to work more efficiently
+2: Social Network Ananlysis :- It identifies which friends email you more regularly on a particular platform but here we have not confirmed that user 1st preference of social network and then we identify which type of groups of they are.
+3: Market Segmentation :- It automatically group the customers in different market segments which saves time and money as well.
+4: Astronomical Data Algorithm :- This technique is used to find the patterns and lifespan of the stars to find there different otheer attributes.
+
+### Cocktail party problem
+Non-clustering: The "Cocktail Party Algorithm", allows you to find structure in a chaotic environment. (i.e. identifying individual voices and music from a mesh of sounds at a <a href="https://en.wikipedia.org/wiki/Cocktail_party_effect">cocktail party</a>).
+
+cocktail party where there are two speakers in the room and there are two mics in the room and both the speakers speak at the same time and now it depends on the speaker voice loudness how much sound waves are captured by a particular mic.
+<img src="weak1pod6.png">
+So both the microphones are creating a overlapping voice channel by both speakers.
+So now in this we have two voice recordings from two different mics situated in the room and in 1st speaker the voice of speaker1 comes more louder then the speaker2 because as such they are somehow powerfull weight.
+
+Now the algorithm will do is to sum both the recordings and listen both the recordings and form clusturs of the two different voices and seperated them in two different sound files, So here we formed different clusturs for the same recording using different mics.
+
+### Cocktail party problem algorithm
+so to implement this problem algorithm we will be going to use octave in matlab so using such tools make many learning algorithms to be as a few lines of code
+<img src="weak1pod7.png">
+
+Functions used in the algorithm
+svd :- Single value decomposition it turns out to be linear algebra routine 
+
+
+
+
+
+
+
+
 
