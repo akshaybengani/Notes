@@ -13,7 +13,7 @@ The word <b>data</b> refers to information presented whatever form agreed by the
 <b>Jitter</b> It refers to the variations of the packet arrival time basically constant, consistant arrival of time.<br>
 
 ### Components of Data Communications
-To data communication to occur this system have 5 components
+To data communication to occur this system have 5 components<br>
 <b>Message</b> The information Data to be communicated.<br>
 <b>Sender</b> The sender is the device that sends the data message<br>
 <b>Reciever</b> The device which is intended to recieve the code.<br>
