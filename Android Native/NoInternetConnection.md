@@ -28,16 +28,36 @@ return activeNetworkInfo != null && activeNetworkInfo.isConnected();
 ```
 ## Step 3
 Call the function in a if statement and check it is true or false
+Remove the contextView from the onCreate function and paste in the else condition.
 
 ```html
-if(amIConnected())
-{
-	Log.i("TRUE","User is connected");
-}
-else
-{
-	Log.i("TRUE","User is NOT Connected");
-}
+        if(!amIConnected())
+        {
+            Log.i("TRUE","User is connected");
+
+            // Create an Alert Dialog
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            // Set the Alert Dialog Message
+            builder.setMessage("No Internet Connection")
+                    .setCancelable(false)
+                    .setPositiveButton("Retry",
+                            new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog,
+                                                    int id) {
+                                    // Restart the Activity
+                                    Intent intent = getIntent();
+                                    finish();
+                                    startActivity(intent);
+                                }
+                            });
+            AlertDialog alert = builder.create();
+            alert.show();
+        }
+        else
+        {
+            Log.i("TRUE","User is NOT Connected");
+            setContentView(R.layout.activity_main);
+        }
 
 ```
 So this is to print the connection status of the device weather the user is connected or not.
@@ -46,4 +66,5 @@ So this is to print the connection status of the device weather the user is conn
 
 # References
 https://youtu.be/VM0RR6zhYY0
+http://www.androidbegin.com/tutorial/android-check-internet-connection/
 
