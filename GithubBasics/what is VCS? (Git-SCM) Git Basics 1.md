@@ -3,10 +3,10 @@
 In simple Language
 
 ## Git is for
-Create things
-Save things
-Edit things 
-save the thing again 
+> Create things
+> Save things
+> Edit things 
+> save the thing again 
 
 ## History Tracking 
 
