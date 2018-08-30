@@ -67,15 +67,15 @@ This will merge all the data and if there are conflicts in both of the users fil
 
 Git is very capable and customizable to advance users.  
 Git is Flexible so that it fits your need insteed to the other way around.  
-It is powerful to satisfy the scripting needs of the advanced developers.
+It is powerful to satisfy the scripting needs of the advanced developers.  
 
-$ git add -p MyReport.markdown
+$ git add -p MyReport.markdown  
 This will add a small part of your code.
 
-$ git commit -m "Added latest Statistics"
-Commit the code to mark down with the server
+$ git commit -m "Added latest Statistics"  
+Commit the code to mark down with the server 
 
-
+$ git log --graph --decorate --abbrev-commit --all --pretty=oneline  
 Basically over here you can also add some peice of your code and then commit it and check what other people have done using the log section wven in the terminal.
  
 
