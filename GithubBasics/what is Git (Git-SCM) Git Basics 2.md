@@ -29,5 +29,5 @@ This is the problem when multiple users are working on the different machines wo
 Git is designed up for Team-centric so that collaboration happens naturally.
 
 ## Collaborative History Tracking
-<img src="images/1.png" width="100px" height=auto>
+<img src="images/1.png" width=auto height=auto>
 
