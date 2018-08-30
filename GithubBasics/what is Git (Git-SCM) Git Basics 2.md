@@ -30,4 +30,59 @@ Git is designed up for Team-centric so that collaboration happens naturally.
 
 ## Collaborative History Tracking
 <img src="images/1.png" width=auto height=auto>
+People work in sequenial fasion and they all are running to work on thier different times and duration
+Reality is people are working on same time on same file.
+<img src="images/2.png" width=auto height=auto>
+It is just overlapping the work and making multiple files by multiple users add more complexity.
+
+## Lets have an example  
+Akshay and Shivank are both working on a same project or on the same file.
+
+$ git checkout master  
+Akshay uses master branch
+
+$ git commit -m "My new logo"  
+Akshay added his work to the server
+
+$ git push  
+Akshay Submitted the work to the master branch
+
+Now it comes to Shivank Part  
+
+$ git checkout -b shivankfeature  
+Shivank is working on different branch
+
+$ git commit -m "My feature code"  
+Now added his work to the new branch
+
+$ git push origin shivankfeature  
+Shivank submitted his work to his another branch
+
+$ git pull  
+Now the main part we need to merge the code so Shivank just pulled out the master branch code from the server now it is time to merge and it can be easily done by.  
+$ git merge shivankfeature  
+This will merge all the data and if there are conflicts in both of the users file it will guide you all around the changes made by Akshay and Shivank and what changes to apply.
+
+## Advanced Git
+
+Git is very capable and customizable to advance users.  
+Git is Flexible so that it fits your need insteed to the other way around.  
+It is powerful to satisfy the scripting needs of the advanced developers.
+
+$ git add -p MyReport.markdown
+This will add a small part of your code.
+
+$ git commit -m "Added latest Statistics"
+Commit the code to mark down with the server
+
+
+Basically over here you can also add some peice of your code and then commit it and check what other people have done using the log section wven in the terminal.
+ 
+
+
+
+
+
+
+
 
