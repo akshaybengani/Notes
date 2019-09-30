@@ -5,7 +5,6 @@
 ,Did you get there ? (Acknowledgements, error checking)
 ## Computer Networking models
 Models, also called protocol stacks represented in layers help to understand where things go right or wrong.<br>
-
 Models like 
 * OSI layer 
 * DOD 3 layer model 
@@ -108,7 +107,7 @@ This is used to resolve the IP address and the webpage name stored on DNS server
 ## Load Balancer
 * Shifting burden from one device to another.
 * Benifits
-    *   Reduces the response time,
+    * Reduces the response time,
     * Maximises throughput
     * Allows better allocation of resource.
 *   Scheduling Distributing load
@@ -149,7 +148,7 @@ This is used to resolve the IP address and the webpage name stored on DNS server
     *  Omnidirectional They are not specific to a direction they are spreaded in all directions up, down,left, right etc
     *  Directional It means you can set to give network on a specific direction.
 
-# Security Network Components
+# Security Network Components and Measures
 These are common and basic level security systems which most of the organizations use.
 * Firewall
 * NIDS NIPS
@@ -194,21 +193,4 @@ These are common and basic level security systems which most of the organization
 * Sensor : The IDS component that collects data from the data souces and passes it to analzer.
 * Host based on individual Systems.
 * Network based On the netwrork borders.
-* 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
